@@ -1,0 +1,153 @@
+/* Reduced classes and element selectors by grouping rules with identical styling*/
+
+/*Universal Selector apply to all unless more specific rules given */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*Defaults across page, Default background color, Font and Text color*/
+body {
+    background-color: #d9dcd6;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+}
+
+/*Header fomratting*/
+
+    /*Header padding and color*/
+header {
+    padding: 20px;
+    background-color: #2a607c;
+}
+    /*Header Text*/
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+    /*Header text accent color*/
+.seo {
+    color: #d9dcd6;
+}
+
+/*Navigation Bar formatting*/
+
+    /*Navigation bar positioning in header*/
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+
+    /*Navigation bar blocks/spacing*/
+li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+    /*Navigation bar text*/
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/*Hero image - Photo background*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*Main content - left side*/
+
+    /*main content divider, defines width and postion*/
+container {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+    /*Article box/background format*/
+article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    background-color: #0072bb;
+}
+
+    /*Article image styling*/
+article img {
+    max-height: 200px;
+}
+    /*Image float in article container Left & Right*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+    /*Article title styling*/
+article h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+    /*Article Paragraphs*/
+p {
+    font-size: 16px;
+}
+
+/*Right side content divider*/
+
+    /*Section container, positioning & background*/
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    background-color: #2589bd;
+}
+    /*Positioning of sections in the right side container */
+section {
+    margin-bottom: 32px;
+}
+    /*Right side title alignment*/
+section h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+    /*Right side images*/
+section img {
+    display: block;
+    margin: 10px auto;
+    width: 150px;
+}
+
+/*Footer*/
+
+    /*Footer Style, centered and specific font style */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: black;
+}
+
+    /* Footer heading text font size*/
+footer h2 {   
+     font-size: 20px;   
+}
