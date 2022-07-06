@@ -6,6 +6,10 @@
 
 <br>
 
+Link to live site: https://michaelw1996.github.io/Challenge1/
+
+<br>
+
 ## Changelog:
 
 Functional:
@@ -64,5 +68,10 @@ Code readbility:
 Accesibility
 
     Accesility has been improved on the site by use of appropriate containers (see HTML section) as well as adding in alternative text for images using the "alt=" attribute on the <img> tag
+
+
+Screenshot of live site at provided URL:
+
+![Live site](./assets/images/Live%20site.jpg)
 
 Code edited by Michael Walters
